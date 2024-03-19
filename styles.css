@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Login page styles */
+.login-bg {
+    background-color: azure;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    align-items: center;
+}
+.header {
+    background-image: url('openthread.png'); /* Add your header image path here */
+    background-size: cover;
+    justify-content: center;
+    height: 190px; /* Adjust the height as needed */
+    margin-bottom: 20px;
+}
+
+/* Living room page styles */
+.living-room-bg {
+    background-color: azure; /* Light gray background */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    width: 200%;
+    height: 100px;
+}
+.living-room {
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.living-room:hover {
+    background-color: whitesmoke;
+}
+
+/* Light and fan control page styles */
+.bg-bg {
+    background-color: azure; /* Pink background color */
+}
+.light-control, .fan-control {
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-light, .button-fan {
+    background-color: skyblue; /* Light blue */
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-light:hover, .button-fan:hover {
+    background-color: whitesmoke; /* Dark blue on hover */
+}
+
